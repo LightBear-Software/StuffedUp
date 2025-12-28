@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "BearCharacterBase.generated.h"
+#include "CharacterBase.generated.h"
 
 UCLASS()
-class STUFFEDUP_API ABearCharacterBase : public ACharacter
+class STUFFEDUP_API ACharacterBase : public ACharacter
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this character's properties
-	ABearCharacterBase();
+	ACharacterBase();
 
 protected:
 	// Called when the game starts or when spawned
