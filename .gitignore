@@ -54,7 +54,7 @@ Plugins/**/Binaries/*
 Build/*
 
 # Content should be private
-Content/
+Content/PrivateAssets
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
